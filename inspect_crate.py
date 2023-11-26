@@ -20,5 +20,4 @@ if __name__ == "__main__":
         
         while cv2.waitKey(1) != 27:
             cv2.imshow("Inspection Results", img_results)
-            cv2.imshow("image", image)
 
