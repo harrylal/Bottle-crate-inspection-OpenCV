@@ -4,7 +4,7 @@
 
 </div>
 
-#### This project provides a tool to analyze the quality of crates using classical image processing techniques using OpenCV.
+#### This project provides a tool to analyze the quality of crates with classical image processing techniques using OpenCV.
 
 <br>
 <br>
