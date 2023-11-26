@@ -9,6 +9,43 @@
 <br>
 <br>
 <div align="center">
+
+![image1](assets/results/output_bottle_crate_02.png) 
+![image2](assets/results/output_bottle_crate_01.png)
+</div>
+<br>
+<br>
+
+
+
+## Features
+
+- Analyzes the quality of a crate based on an image.
+- Outputs the quality of the crate and displays the processed image.
+
+## Requirements
+
+- Python 3
+- OpenCV
+- PyYAML
+
+## Usage
+
+To use the Crate Quality Analyzer, you need to provide an image of the crate as a command-line argument:
+
+```sh
+python3 inspect_crate.py <image_path>
+```
+
+This will output the quality of the crate and display the processed image.`
+
+## Configuration
+
+The settings for the image processing parameters can be configured in the [settings.yaml](config/setting.yaml) file.Here you can set parameters for the Canny edge detection, Hough Circle Transform, image dimensions, crate dimensions, template matching, and more.
+
+## Results
+
+<div align="center">
     <table>
         <tr>
             <td><img src="assets/results/output_bottle_crate_02.png" alt="Image 2" width="300"/></td>
@@ -47,28 +84,3 @@
     </table>
 
 </div>
-
-## Features
-
-- Analyzes the quality of a crate based on an image.
-- Outputs the quality of the crate and displays the processed image.
-
-## Requirements
-
-- Python 3
-- OpenCV
-- PyYAML
-
-## Usage
-
-To use the Crate Quality Analyzer, you need to provide an image of the crate as a command-line argument:
-
-```sh
-python3 inspect_crate.py <image_path>
-```
-
-This will output the quality of the crate and display the processed image.`
-
-## Configuration
-
-The settings for the image processing parameters can be configured in the [settings.yaml](config/setting.yaml) file.Here you can set parameters for the Canny edge detection, Hough Circle Transform, image dimensions, crate dimensions, template matching, and more.
