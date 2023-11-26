@@ -3,7 +3,9 @@
 # BOTTLE CRATE INSPECTION USING OPENCV
 
 </div>
-This project provides a tool to analyze the quality of crates using classical image processing techniques using OpenCV.
+
+#### This project provides a tool to analyze the quality of crates using classical image processing techniques using OpenCV.
+
 <br>
 <br>
 <div align="center">
