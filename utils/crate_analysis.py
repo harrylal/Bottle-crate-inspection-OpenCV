@@ -1,7 +1,6 @@
 import cv2
 import numpy as np
 import yaml
-from skimage.metrics import structural_similarity as ssim
 
 class CrateQualityAnalyzer():
     """ CrateQualityAnalyzer Class
